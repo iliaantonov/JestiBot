@@ -12,13 +12,13 @@ for line in stickers_file:
     stickers_list.append(line)
 
 # Казни
-execution_urls_txt = open('videos_data/execution_url.txt', 'r', encoding='utf-8').read().split('\n')
+execution_urls_txt = open('execution_url.txt', 'r', encoding='utf-8').read().split('\n')
 execution_urls = []
 
 for line in execution_urls_txt:
     execution_urls.append(line)
 
-execution_descriptions_txt = open('videos_data/execution_description.txt', 'r', encoding='utf-8').read().split('\n')
+execution_descriptions_txt = open('execution_description.txt', 'r', encoding='utf-8').read().split('\n')
 execution_descriptions = []
 
 for line in execution_descriptions_txt:
